@@ -1,0 +1,25 @@
+version: 1.2
+workflows:
+ - name: alt_1_CalculateStudentGPA
+   subclass: WDL
+   primaryDescriptorPath: /pipelines/unified_quickstart/alt-1_calculate_avg_gpa.wdl
+   testParameterFiles:
+    - empty.json
+
+ - name: alt_2_CalculateStudentGPA
+   subclass: WDL
+   primaryDescriptorPath: /pipelines/unified_quickstart/alt-2_calculate_avg_gpa.wdl
+   testParameterFiles:
+    - empty.json
+  
+ - name: alt_1_CalculateStudentGPA_and_Essay
+   subclass: WDL
+   primaryDescriptorPath: /pipelines/unified_quickstart/alt-1_calculate_avg_gpa_and_essay.wdl
+   testParameterFiles:
+    - empty.json
+
+ - name: alt_2_CalculateStudentGPA_and_Essay
+   subclass: WDL
+   primaryDescriptorPath: /pipelines/unified_quickstart/alt-2_calculate_avg_gpa_and_essay.wdl
+   testParameterFiles:
+    - empty.json
