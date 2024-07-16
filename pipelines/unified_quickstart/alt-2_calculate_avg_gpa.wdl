@@ -40,7 +40,7 @@ task CalculateAverage {
     
 
     runtime {
-        docker: "broadinstitute/horsefish"
+        docker: "python:slim"
     }
 
     output {
