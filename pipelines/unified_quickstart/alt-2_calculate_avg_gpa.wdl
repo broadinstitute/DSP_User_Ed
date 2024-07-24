@@ -40,7 +40,7 @@ task CalculateAverage {
     
 
     runtime {
-        docker: "us.gcr.io/broad-dsp-gcr-public/base/python:distroless"
+        docker: "us.gcr.io/broad-dsp-gcr-public/base/python:alpine"
     }
 
     output {
