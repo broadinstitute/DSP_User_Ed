@@ -40,7 +40,7 @@ task CalculateAverage {
     
 
     runtime {
-        docker: "us.gcr.io/broad-dsp-gcr-public/base/python:3.12-debian"
+        docker: "python:3.12-slim"
     }
 
     output {
