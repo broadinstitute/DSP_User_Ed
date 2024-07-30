@@ -40,7 +40,7 @@ task CalculateAverage {
     
 
     runtime {
-        docker: "python:slim"
+        docker: "python:3.12-slim"
     }
 
     output {
