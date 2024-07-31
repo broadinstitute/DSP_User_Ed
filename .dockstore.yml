@@ -3,5 +3,3 @@ workflows:
  - name: CalculateStudentGPA
    subclass: WDL
    primaryDescriptorPath: /calculate_avg_gpa.wdl
-   testParameterFiles:
-    - empty.json
