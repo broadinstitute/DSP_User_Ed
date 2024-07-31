@@ -2,4 +2,4 @@ version: 1.2
 workflows:
  - name: CalculateStudentGPA
    subclass: WDL
-   primaryDescriptorPath: /calculate_avg_gpa.wdl
+   primaryDescriptorPath: /calculate_average_gpa.wdl
