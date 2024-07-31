@@ -8,7 +8,7 @@ workflows:
 
  - name: alt_2_CalculateStudentGPA
    subclass: WDL
-   primaryDescriptorPath: /pipelines/unified_quickstart/alt-2_calculate_avg_gpa.wdl
+   primaryDescriptorPath: /pipelines/unified_quickstart/calculate_avg_gpa.wdl
    testParameterFiles:
     - empty.json
   
